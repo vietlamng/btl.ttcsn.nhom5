@@ -1,0 +1,120 @@
+<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-Benz Việt Nam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="left-menu">
+            <ul>
+                <li><a href="#">Các mẫu xe</a></li>
+                <li><a href="#">Mua</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Thương hiệu</a></li>
+            </ul>
+        </nav>
+
+        <div class="center-logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        
+        <div class="right-actions">
+            <a href="#" class="provider-link">Provider/...</a>
+            <a href="#" class="icon-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="icon-link"><i class="fa-solid fa-globe"></i></a>
+            <a href="#" class="login-link">
+                <div class="user-icon-bg">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <span>Đăng nhập</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Khu vực nội dung chính của trang web -->
+
+    <footer class="main-footer">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h3>Các dòng xe</h3>
+                <ul>
+                    <li><a href="#">Xe thuần điện EQ</a></li>
+                    <li><a href="#">Sedan</a></li>
+                    <li><a href="#">SUV</a></li>
+                    <li><a href="#">Cabriolet và Roadster</a></li>
+                    <li><a href="#">Mercedes-AMG</a></li>
+                    <li><a href="#">Mercedes-Maybach</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Mua xe</h3>
+                <ul>
+                    <li><a href="#">Ưu đãi mới nhất</a></li>
+                    <li><a href="#">Tìm xe mới</a></li>
+                    <li><a href="#">Tìm xe đã qua sử dụng</a></li>
+                    <li><a href="#">Bảng giá & Brochure</a></li>
+                    <li><a href="#">Cấu hình xe</a></li>
+                    <li><a href="#">Khối doanh nghiệp & Khách hàng ưu tiên</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Tư vấn mua xe</h3>
+                <ul>
+                    <li><a href="#">Yêu cầu tư vấn</a></li>
+                    <li><a href="#">Đăng ký lái thử</a></li>
+                    <li><a href="#">Tìm Nhà phân phối gần nhất</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Dịch vụ</h3>
+                <ul>
+                    <li><a href="#">Ưu đãi dịch vụ</a></li>
+                    <li><a href="#">Đặt hẹn dịch vụ</a></li>
+                    <li><a href="#">Hướng dẫn sử dụng dành cho chủ sở hữu xe</a></li>
+                    <li><a href="#">Phụ kiện chính hãng</a></li>
+                    <li><a href="#">Bộ sưu tập Mercedes-Benz</a></li>
+                    <li><a href="#">Triệu hồi</a></li>
+                    <li><a href="#">Video Hướng Dẫn</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Khám phá Mercedes</h3>
+                <ul>
+                    <li><a href="#">Câu chuyện của chúng tôi</a></li>
+                    <li><a href="#">Cơ hội việc làm</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Quyền riêng tư</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-legal">
+                <a href="#">Bản quyền nội dung</a>
+                <a href="#">Cài đặt</a>
+                <a href="#">Quyền riêng tư và bảo vệ dữ liệu</a>
+                <a href="#">Thông tin pháp lý</a>
+                <a href="#">Giấy phép FOSS</a>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

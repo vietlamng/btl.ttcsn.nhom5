@@ -1,0 +1,101 @@
+/* --- CÀI ĐẶT CHUNG --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- THANH HEADER 3 PHẦN --- */
+.main-header {
+    background-color: #000000; /* Nền đen */
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between; /* Đẩy nội dung ra 2 bên */
+    align-items: center;
+    padding: 0 40px;
+    height: 80px;
+    position: relative;
+}
+
+/* --- 1. MENU BÊN TRÁI --- */
+.left-menu {
+    flex: 1; /* Chiếm 1 nửa không gian để đẩy logo ra giữa */
+}
+
+.left-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.left-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.left-menu a:hover {
+    color: #cccccc;
+}
+
+/* --- 2. LOGO Ở GIỮA --- */
+.center-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Cố định logo ở chính giữa màn hình */
+    display: flex;
+    align-items: center;
+}
+
+.center-logo img {
+    height: 80px; /* Điều chỉnh độ to của logo */
+    width: auto;
+}
+
+/* --- 3. CÁC NÚT BÊN PHẢI --- */
+.right-actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Căn lề phải */
+    align-items: center;
+    gap: 25px; /* Khoảng cách giữa các cụm biểu tượng */
+}
+
+.provider-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.icon-link {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* --- NÚT ĐĂNG NHẬP (CÓ NỀN TRÒN XÁM) --- */
+.login-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.user-icon-bg {
+    background-color: #444444; /* Vòng tròn xám đậm bao quanh user */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* Bo tròn hoàn toàn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon-bg i {
+    font-size: 16px;
+    color: #ffffff;
+}

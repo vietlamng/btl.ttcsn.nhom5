@@ -1,4 +1,3 @@
-/* --- CÀI ĐẶT CHUNG --- */
 * {
     margin: 0;
     padding: 0;
@@ -6,21 +5,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* --- THANH HEADER 3 PHẦN --- */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff; 
+}
+
 .main-header {
-    background-color: #000000; /* Nền đen */
+    background-color: #000000;
     color: #ffffff;
     display: flex;
-    justify-content: space-between; /* Đẩy nội dung ra 2 bên */
+    justify-content: space-between;
     align-items: center;
     padding: 0 40px;
     height: 80px;
     position: relative;
 }
 
-/* --- 1. MENU BÊN TRÁI --- */
 .left-menu {
-    flex: 1; /* Chiếm 1 nửa không gian để đẩy logo ra giữa */
+    flex: 1;
 }
 
 .left-menu ul {
@@ -40,27 +44,25 @@
     color: #cccccc;
 }
 
-/* --- 2. LOGO Ở GIỮA --- */
 .center-logo {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); /* Cố định logo ở chính giữa màn hình */
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
 }
 
 .center-logo img {
-    height: 80px; /* Điều chỉnh độ to của logo */
+    height: 80px;
     width: auto;
 }
 
-/* --- 3. CÁC NÚT BÊN PHẢI --- */
 .right-actions {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* Căn lề phải */
+    justify-content: flex-end;
     align-items: center;
-    gap: 25px; /* Khoảng cách giữa các cụm biểu tượng */
+    gap: 25px;
 }
 
 .provider-link {
@@ -75,7 +77,6 @@
     text-decoration: none;
 }
 
-/* --- NÚT ĐĂNG NHẬP (CÓ NỀN TRÒN XÁM) --- */
 .login-link {
     display: flex;
     align-items: center;
@@ -86,10 +87,10 @@
 }
 
 .user-icon-bg {
-    background-color: #444444; /* Vòng tròn xám đậm bao quanh user */
+    background-color: #444444;
     width: 35px;
     height: 35px;
-    border-radius: 50%; /* Bo tròn hoàn toàn */
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,4 +99,79 @@
 .user-icon-bg i {
     font-size: 16px;
     color: #ffffff;
+}
+
+.main-footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 80px 20px 80px;
+    margin-top: auto; 
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 15px;
+}
+
+.footer-col a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333333;
+    padding-top: 25px;
+}
+
+.footer-legal a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 25px;
+}
+
+.footer-legal a:hover {
+    color: #ffffff;
+}
+
+.footer-social {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-social a {
+    color: #ffffff;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: #b0b0b0;
 }
